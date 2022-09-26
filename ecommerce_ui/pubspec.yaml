@@ -1,0 +1,100 @@
+name: ecommerce_flutter_ui
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  simple_animations: ^1.3.4
+  carousel_pro: ^1.0.0
+  flutter_swiper : ^1.1.6
+  carousel_slider: ^1.3.0
+  badges: ^1.1.0
+  http: ^0.12.0+2
+  font_awesome_flutter: ^8.5.0
+  fluttertoast: ^7.1.8
+  custom_radio: ^0.1.2
+  flutter_rating_bar: ^3.0.0
+  flutter_slidable: ^0.5.4
+  flutter_spinkit: ^4.1.2
+  page_transition: ^1.1.7+6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.7.3"
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/icon.png"
+
+module:
+  androidX: true
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/fb-black.png
+    - assets/fb.png
+    - assets/git.png
+    - assets/google_plus.png
+    - assets/twitter.png
+    - assets/GoKart.png
+    - assets/slider/
+    - assets/category/
+    - assets/promotion/
+    - assets/best_offer/
+    - assets/top_seller/
+    - assets/best_deal/
+    - assets/featured_brands/
+    - assets/top_design/
+    - assets/block_bustor_deal/
+    - assets/best_of_fashion/
+    - assets/womens_collection/
+    - assets/notifications/
+    - assets/products/
+    - assets/products/top_offers/
+    - assets/products/wedding_collection/
+    - assets/payment_icon/
+    - assets/user_profile/
+    - assets/json/
+
+  fonts:
+    - family: Francois One
+      fonts:
+        - asset: fonts/FrancoisOne-Regular.ttf
+          weight: 400
+    - family: Alatsi
+      fonts:
+        - asset: fonts/Alatsi-Regular.ttf
+          weight: 400
+    - family: Kaushan Script
+      fonts:
+        - asset: fonts/KaushanScript-Regular.ttf
+          weight: 400
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+          weight: 400
